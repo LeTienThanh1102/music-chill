@@ -1,0 +1,219 @@
+@media (max-width:1023px)and (min-width: 740px){
+    .header-nav-list{
+        display: none;
+    }
+    .m-4{
+        max-width: 25%;
+
+    }
+    .m-6{
+        max-width: 75%;
+        margin-left: 25%;
+    }
+    .header{
+        left: 25%;
+    }
+    .header-user{
+        margin-left: 60px;
+    }
+    .carousel-cell{
+        width: 45%;
+    }
+    .tablet-6{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .zingchart-items{
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .tablet-3{
+        max-width: 25%;
+        flex: 0 0 25%;
+    }
+    .singer-vpop-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .singer-vpop-name{
+        font-size: 1.2rem;
+         bottom: -10px;
+        opacity: 1;
+    }
+    .singer-vpop-item{
+        margin-top: 12px;
+    }
+    .tablet-3-4{
+        max-width: 33.33333%;
+        flex: 0 0 33.333333%;
+    }
+    .top-music-gt{
+        font-size: 1.4rem;
+    }
+    .tablet-12{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .zing-event-content{
+        margin-top: 30px;
+    }
+    .zing-event-buy{
+        padding: 12px;
+    }
+    .zing-event-qt{
+        bottom: 10px;
+
+    }
+    .footer-lhe{
+        display: none;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .zingchart-list{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:739px){
+    .header-nav-list{
+        display: none;
+    }
+    .grid-col-2{
+        display: none;
+    }
+    .first{
+        display: none;
+    }
+    .side-bar-logo{
+        margin-left: 12px;
+    }
+    .header{
+        left: 0;
+        height: 80px;
+        background-color: #050937;
+    }
+    .grid-col-10{
+        margin-left: 0;
+    }
+    .c-12{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .header-user-name{
+        display: none;
+    }
+    .header-search{
+        display: none;
+    }
+    .carousel-cell{
+        width: 90%;
+    }
+    .app-pro{
+        padding:50px  12px 0 0;
+    }
+    .zingchart-img{
+        width: 100%;
+        padding-left: 12px;
+    }
+    .zing-event{
+        margin-top: 30px;
+    }
+    .footer-fb, .footer-ig {
+       display: flex;
+       flex-direction: column;
+    }
+    .zingchart-list{
+        flex-wrap: wrap;
+    }
+    .footer-ig{
+        margin-left: 0px;
+    }
+    .carousel {
+        margin-left: 10px;
+    }
+    .music-new-heading{
+        font-size: 1.6rem;
+    }
+    .music-sing, .music-album{
+        padding: 6px;
+    }
+    .mobile-12{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .pc-none{
+        display: block;
+        flex: 4;
+    }
+    .header-nav-input{
+        flex: 1;
+
+    }
+    .header-user{
+        flex: 1;
+
+    }
+    /* .sing-list{
+        margin-top: 0;
+    } */
+    .zingchart-items{
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .mobile-6{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .singday-list{
+        margin-left: 10px;
+    }
+    .mobile-4{
+        max-width: 33.33333%;
+        flex: 0 0 33.333333%;
+    }
+    .singer-vpop-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .singer-vpop-name{
+        font-size: 1.2rem;
+        bottom: -10px;
+        opacity: 1;
+    }
+    .singer-vpop-item{
+        margin-top: 12px;
+    }
+    .tablet-3-4,
+    .mobile-3-4{
+        max-width: 33.33333%;
+        flex: 0 0 33.333333%;
+    }
+    .top-music-gt{
+        font-size: 1.4rem;
+    }
+    .tablet-12{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .zing-event-content{
+        margin-top: 30px;
+    }
+    .zing-event-buy{
+        padding: 12px;
+    }
+    .zing-event-qt{
+        bottom: 10px;
+
+    }
+    .footer-lhe{
+        display: none;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .footer-pro-list{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}

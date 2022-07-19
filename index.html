@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <title>Music-Chill</title>
+</head>
+<body>
+    <div class="main">
+        <div class="app">
+            <div class="grid-col-2 m-4 first">
+                <div class="side-bar">
+                    <div class="side-bar-logo">
+                        <img src="./assets/img/logo123.png" alt="" class="side-bar-img">
+                    </div>
+                    <div class="side-bar-body">
+                        <div class="side-bar-items">
+                            <i class="side-bav-dv-icon fa-solid fa-user side-bar-icon"></i>
+                            <span class="side-bar-name">Cá Nhân</span>
+                        </div>
+                        <div class="side-bar-items">
+                            <i class="fa-brands fa-angular side-bar-icon"></i>
+                            <span class="side-bar-name">Trang chủ</span>
+                        </div>
+                        <div class="side-bar-items ">
+                            <i class="side-bav-dv-icon fa-solid fa-clock-rotate-left side-bar-icon"></i>
+                            <span class="side-bar-name">Khám Phá</span>
+                        </div>
+                        <div class="side-bar-items">
+                            <i class="fa-light fa-heart side-bar-icon"></i>
+                            <span class="side-bar-name">Yêu Thích</span>
+                        </div>
+                        <div class="side-bar-items">
+                            <i class="fa-brands fa-airbnb side-bar-icon"></i>
+                            <span class="side-bar-name">Xem Sau</span>
+                        </div>
+                        <div class="side-bar-items">
+                            <i class="fa-brands fa-airbnb side-bar-icon"></i>
+                            <span class="side-bar-name">Top Thịnh Hành</span>
+                        </div>
+                        <div class="side-bar-items">
+                            <i class="fa-brands fa-autoprefixer side-bar-icon"></i>
+                            <span class="side-bar-name">Kênh đăng kí</span>
+                        </div>
+                        <div class="side-bar-items">
+                            <i class="fa-brands fa-autoprefixer side-bar-icon"></i>
+                            <span class="side-bar-name">Theo dõi</span>
+                        </div>
+                    </div>
+                    <div class="side-bar-footer">
+                        <div class="side-bar-list">
+                            <div class="side-bar-dv">
+                                <i class="side-bav-dv-icon fa-solid fa-gears"></i>
+                                <span class="side-bar-dv-name">Cài đặt</span>
+                            </div>
+    
+                            <div class="side-bar-dv">
+                                <i class="side-bav-dv-icon fa-solid fa-gears"></i>
+                                <span class="side-bar-dv-name">Cài đặt</span>
+                            </div>
+                            <div class="side-bar-dv">
+                                <i class="side-bav-dv-icon fa-solid fa-list-check"></i>
+                                <span class="side-bar-dv-name">Lịch sử tìm kiếm</span>
+                            </div>
+                            <div class="side-bar-dv">
+                                <i class="side-bav-dv-icon fa-solid fa-circle-question"></i>
+                                <span class="side-bar-dv-name">Trợ giúp</span>
+                            </div>
+                            <div class="side-bar-dv">
+                                <i class="side-bav-dv-icon fa-solid fa-handshake-angle"></i>
+                                <span class="side-bar-dv-name">Phản hồi</span>
+                            </div>
+                        </div>
+                    </div>
+                        
+                </div>
+            </div>
+            <div class="grid-col-10 m-6 c-12">
+                <div class="header">
+                    <div class="header-navbar">
+                        <div class="side-bar-logo pc-none">
+                            <img src="./assets/img/logo123.png" alt="" class="side-bar-img">
+                        </div>
+                        <div class="header-nav-input">
+                            <input type="text" placeholder="Tìm kiếm bài hát" class="header-search">
+                            <i class="fa-solid fa-magnifying-glass header__search-icon"></i>
+                            
+                        </div>
+                        <ul class="header-nav-list">
+                            <li class="header-nav-items">
+                                <a href="" class="header-nav-name">Nhạc Âu Mỹ</a>
+                            </li>
+                            <li class="header-nav-items">
+                                <a href="" class="header-nav-name">US-UK</a>
+                            </li>
+                            <li class="header-nav-items">
+                                <a href="" class="header-nav-name">K-POP</a>
+                            </li>
+                            <li class="header-nav-items">
+                                <a href="" class="header-nav-name">Nhạc Trẻ</a>
+                            </li>
+                            <li class="header-nav-items">
+                                <a href="" class="header-nav-name">V-POP</a>
+                            </li>
+                        </ul>
+                        <div class="header-user">
+                            <img src="./assets/img/user.jpg" alt="" class="header-user-img">
+                            <span class="header-user-name">Tiến Thành</span>
+                            <div class="header-user-list">
+                                <ul class="header-user-items">
+                                    <li class="header-user-item">
+                                        <a href="">Xem trang cá nhân</a>
+                                    </li>
+                                    <li class="header-user-item">
+                                        <a href="">Chỉnh sửa</a>
+                                    </li>
+                                    <li class="header-user-item">
+                                        <a href="">Cài đặt</a>
+                                    </li>
+                                    <li class="header-user-item">
+                                        <a href="">Đăng xuất</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="body">
+                    <div class="app-pro">
+                        <div class="carousel"
+                        data-flickity='{ "wrapAround": true,"groupCells": true,"autoPlay": true   }'>
+                            <div class="carousel-cell" style="background-image: url(./assets/img/gieoque.jpg);">                         
+                            </div>
+                            <div class="carousel-cell" style="background-image: url(./assets/img/doemxuithoi.jpg);">                               
+                            </div>
+                            <div class="carousel-cell" style="background-image: url(./assets/img/buocquanhau.jpg);">
+                            </div>
+                            <div class="carousel-cell" style="background-image: url(./assets/img/seetinh.jpg);">
+                            </div>
+                            <div class="carousel-cell" style="background-image: url(./assets/img/theoytroi.jpg);">
+                            </div>
+                            <div class="carousel-cell" style="background-image: url(./assets/img/nuocmat.jpg);">
+                            </div>
+                            <div class="carousel-cell" style="background-image: url(./assets/img/music1/buayeu.jpg);">
+                            </div>
+                            <div class="carousel-cell" style="background-image: url(./assets/img/music1/Hay-Trao-Cho-Anh.jpg);">
+                            </div>
+                        </div>
+                        <div class="music-new">
+                            <div class="music-new-headingg">
+                                <i class="fa-solid fa-angles-right music-new-icon"></i>
+                                <a href="" class="music-new-heading">Bài hát mới phát hành</a>
+                            </div>
+                            <div class="music-new-danhmuc">
+                                <span class="music-sing">Bài hát</span>
+                                <span class="music-album">ALBUM</span>
+                            </div>
+                            <div class="new-sing">
+                                <div class="row wide">
+                                    <div class="grid-col-2-4 tablet-6 mobile-12">
+                                        <div class="sing-list">
+                                            <a href="" class="sing-item">
+                                                <img src="./assets/img/seetinh.jpg" alt="" class="sing-img">
+                                                <div class="sing-item-id">
+                                                    <p class="sing-name">Gieo quẻ</p>
+                                                    <div class="sing-singer">Hoàng Thùy Linh, Đen Vâu</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-col-2-4 tablet-6 mobile-12">
+                                        <div class="sing-list">
+                                            <a href="" class="sing-item">
+                                                <img src="./assets/img/music1/artworks-000275142605-wnkg6h-t500x500.jpg" alt="" class="sing-img">
+                                                <div class="sing-item-id">
+                                                    <p class="sing-name">Mặt tròi của em</p>
+                                                    <div class="sing-singer">Phương Ly, Juster-T</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-col-2-4 tablet-6 mobile-12">
+                                        <div class="sing-list">
+                                            <a href="" class="sing-item">
+                                                <img src="./assets/img/music1/bainaychillphet.jpg" alt="" class="sing-img">
+                                                <div class="sing-item-id">
+                                                    <p class="sing-name">Bài này chill phết</p>
+                                                    <div class="sing-singer">Min, Đen Vâu</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-col-2-4 tablet-6 mobile-12">
+                                        <div class="sing-list">
+                                            <a href="" class="sing-item">
+                                                <img src="./assets/img/music1/haimuoihai.png" alt="" class="sing-img">
+                                                <div class="sing-item-id">
+                                                    <p class="sing-name">Hai mươi hai</p>
+                                                    <div class="sing-singer">Amee</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="grid-col-2-4 tablet-6 mobile-12">
+                                        <div class="sing-list">
+                                            <a href="" class="sing-item">
+                                                <img src="./assets/img/music1/Hay-Trao-Cho-Anh.jpg" alt="" class="sing-img">
+                                                <div class="sing-item-id">
+                                                    <p class="sing-name">Hãy Trao cho anh</p>
+                                                    <div class="sing-singer">Sơn Tùng MTP</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-col-2-4 tablet-6 mobile-12">
+                                        <div class="sing-list">
+                                            <a href="" class="sing-item">
+                                                <img src="./assets/img/music1/Lac_troi_single_sontungmtp.jpg" alt="" class="sing-img">
+                                                <div class="sing-item-id">
+                                                    <p class="sing-name">Lạc Trôi</p>
+                                                    <div class="sing-singer">Sơn Tùng MTP</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-col-2-4 tablet-6 mobile-12">
+                                        <div class="sing-list">
+                                            <a href="" class="sing-item">
+                                                <img src="./assets/img/music1/muỏnuoutotinh.jpg" alt="" class="sing-img">
+                                                <div class="sing-item-id">
+                                                    <p class="sing-name">Mượn rượu tỏ tình</p>
+                                                    <div class="sing-singer">Big Daddy, Emily</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-col-2-4 tablet-6 mobile-12">
+                                        <div class="sing-list">
+                                            <a href="" class="sing-item">
+                                                <img src="./assets/img/music1/vetmua.jpg" alt="" class="sing-img">
+                                                <div class="sing-item-id">
+                                                    <p class="sing-name">Vết Mưa</p>
+                                                    <div class="sing-singer">Vũ Cát Tường</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-col-2-4 tablet-6 mobile-12">
+                                        <div class="sing-list">
+                                            <a href="" class="sing-item">
+                                                <img src="./assets/img/theoytroi.jpg" alt="" class="sing-img">
+                                                <div class="sing-item-id">
+                                                    <p class="sing-name">Thuận theo ý trời</p>
+                                                    <div class="sing-singer">bùi Anh Tuấn</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-col-2-4 tablet-6 mobile-12">
+                                        <div class="sing-list">
+                                            <a href="" class="sing-item">
+                                                <img src="./assets/img/buocquanhau.jpg" alt="" class="sing-img">
+                                                <div class="sing-item-id">
+                                                    <p class="sing-name">Bước qua nhau</p>
+                                                    <div class="sing-singer">Bùi Anh Tuấn</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-col-2-4 tablet-6 mobile-12">
+                                        <div class="sing-list">
+                                            <a href="" class="sing-item">
+                                                <img src="./assets/img/music1/buayeu.jpg" alt="" class="sing-img">
+                                                <div class="sing-item-id">
+                                                    <p class="sing-name">Bùa Yêu</p>
+                                                    <div class="sing-singer">Bích Phương</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-col-2-4 tablet-6 mobile-12">
+                                        <div class="sing-list">
+                                            <a href="" class="sing-item">
+                                                <img src="./assets/img/music1/tuchoinhenhang.jpg" alt="" class="sing-img">
+                                                <div class="sing-item-id">
+                                                    <p class="sing-name">Từ chối nhẹ nhàng</p>
+                                                    <div class="sing-singer">Bích Phương</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-col-2-4 tablet-6 mobile-12">
+                                        <div class="sing-list">
+                                            <a href="" class="sing-item">
+                                                <img src="./assets/img/music1/châni.jpg" alt="" class="sing-img">
+                                                <div class="sing-item-id">
+                                                    <p class="sing-name">Chân Ái</p>
+                                                    <div class="sing-singer">Orange</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-col-2-4 tablet-6 mobile-12">
+                                        <div class="sing-list">
+                                            <a href="" class="sing-item">
+                                                <img src="./assets/img/music1/luayeu.jpg" alt="" class="sing-img">
+                                                <div class="sing-item-id">
+                                                    <p class="sing-name">Lười Yêu</p>
+                                                    <div class="sing-singer">Bảo Anh</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-col-2-4 tablet-6 mobile-12">
+                                        <div class="sing-list">
+                                            <a href="" class="sing-item">
+                                                <img src="./assets/img/music1/saulunganhkia.jpg" alt="" class="sing-img">
+                                                <div class="sing-item-id">
+                                                    <p class="sing-name">Sau lưng anh có ai kìa</p>
+                                                    <div class="sing-singer">Thiều Bảo Trâm</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="singday">
+                            <div class="singday-heading">
+                                <i class="fa-solid fa-angles-right music-new-icon"></i>
+                                <a href="" class="music-new-heading">List nhạc theo ngày</a>
+                            </div>
+                            <div class="singday-body">
+                                <div class="row wide">
+                                    <div class="grid-col-2-3 tablet-6 mobile-6">
+                                        <div class="singday-list">
+                                            <a href="" class="singday-items">
+                                                <div class="singday-last">
+                                                    <div class="singday-img" style="background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfAgzswx-SdaS-QS69PVL_sGLoB_-k0jJV7w&usqp=CAU) ;"></div>
+                                                </div>
+
+                                                <div class="singday-content">
+                                                    <p class="singday-name">Nhạc đầu tuần tràn dầy năng lượng</p>
+                                                    <div class="singday-commnet">Nhạc vui động của các ca sĩ Vpop</div>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-col-2-3 tablet-6 mobile-6">
+                                        <div class="singday-list">
+                                            <a href="" class="singday-items">
+                                                <div class="singday-last">
+                                                    <div class="singday-img" style="background-image:url(https://i1.sndcdn.com/artworks-mehBEzaRZBeUoQ4x-eIL85Q-t500x500.jpg) ;"></div>
+                                                </div>
+
+                                                <div class="singday-content">
+                                                    <p class="singday-name">Thứ bar vui vẻ, dịu dàng</p>
+                                                    <div class="singday-commnet">Bản nhạc nhẹ nhàng, du dương mang sự nhẹ nhàng, dễ nghe của các ca sĩ Trung Quốc</div>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-col-2-3 tablet-6 mobile-6">
+                                        <div class="singday-list">
+                                            <a href="" class="singday-items">
+                                                <div class="singday-last">
+                                                    <div class="singday-img" style="background-image:url(https://i.scdn.co/image/ab67616d0000b2735ed47ad9b43147b1b79bddc4) ;"></div>
+                                                </div>
+
+                                                <div class="singday-content">
+                                                    <p class="singday-name">Thứ tư với âm nhạc sống đông, bắt tai</p>
+                                                    <div class="singday-commnet">Những bản nhạc rap, chất như nước cất đến từ các rapper RapViet</div>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-col-2-3 tablet-6 mobile-6">
+                                        <div class="singday-list">
+                                            <a href="" class="singday-items">
+                                                <div class="singday-last">
+                                                    <div class="singday-img" style="background-image:url(https://pbs.twimg.com/media/EjixO8UVkAMqFtq.jpg) ;"></div>
+                                                </div>
+
+                                                <div class="singday-content">
+                                                    <p class="singday-name">Thứ năm với bản nhạc của các nhóm nhạc KPOP</p>
+                                                    <div class="singday-commnet">Ablum các nhóm nhạc lớn Kpop như BlackPink, BTS,...</div>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-col-2-3 tablet-6 mobile-6">
+                                        <div class="singday-list">
+                                            <a href="" class="singday-items">
+                                                <div class="singday-last">
+                                                    <div class="singday-img" style="background-image:url(https://globalcastingresources.com/wp-content/uploads/2019/01/image3.png) ;"></div>
+                                                </div>
+
+                                                <div class="singday-content">
+                                                    <p class="singday-name">Thứ sáu với sự ấm áp, rực cháy của US-UK</p>
+                                                    <div class="singday-commnet">Nhạc Âu Mỹ mang đến năng lượng, sức sống, với bản remix chất lượng</div>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-col-2-3 tablet-6 mobile-6">
+                                        <div class="singday-list">
+                                            <a href="" class="singday-items">
+                                                <div class="singday-last">
+                                                    <div class="singday-img" style="background-image:url(https://i.ytimg.com/vi/-gUmnOJT3kE/maxresdefault.jpg) ;"></div>
+                                                </div>
+
+                                                <div class="singday-content">
+                                                    <p class="singday-name">Thứ bảy chill chill</p>
+                                                    <div class="singday-commnet">Chill chill với các bài hát của Vũ, Đen Vâu,... Các bản mashup vip pro</div>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-col-2-3 tablet-6 mobile-6">
+                                        <div class="singday-list">
+                                            <a href="" class="singday-items">
+                                                <div class="singday-last">
+                                                    <div class="singday-img" style="background-image:url(https://danviet.mediacdn.vn/296231569849192448/2022/6/10/dsc07679-16548611581171699526440.jpg) ;"></div>
+                                                </div>
+
+                                                <div class="singday-content">
+                                                    <p class="singday-name">Chủ nhật đi ngủ</p>
+                                                    <div class="singday-commnet">Nhạc âm đềm, nhẹ nhàng</div>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-col-2-3 tablet-6 mobile-6">
+                                        <div class="singday-list">
+                                            <a href="" class="singday-items">
+                                                <div class="singday-last">
+                                                    <div class="singday-img" style="background-image:url(data:image/jpeg;base64,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) ;"></div>
+                                                </div>
+
+                                                <div class="singday-content">
+                                                    <p class="singday-name">Tống hợp</p>
+                                                    <div class="singday-commnet">Tất cả các thể loại, mang đậm tính giải trí, vui vẻ</div>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="zingchart">
+                            <div class="zingchart-heading">
+                                <i class="fa-solid fa-angles-right music-new-icon"></i>
+                                <a href="" class="music-new-heading">#Zingchart</a>
+                            </div>
+                            <div class="zingchart-body">
+                                <ul class="zingchart-list">
+                                    <li href=""class="zingchart-items">
+                                        <a href="" class="zingchart-loving">
+                                            <p class="zingchart-name">Top bài hát của tôi thích</p>
+                                            <img src="./assets/img/zingcharrt.jpg" alt="" class="zingchart-img">
+                                        </a>
+                                        
+                                    </li>
+                                    <li class="zingchart-items">
+                                        <a href=""class="zingchart-loving">
+                                            <p class="zingchart-name">Top thịnh hành </p>
+                                            <img src="./assets/img/zingcharrt.jpg" alt="" class="zingchart-img">
+                                        </a>
+                                        
+                                    </li>
+                                    <li class="zingchart-items">
+                                        <a href="" class="zingchart-loving">
+                                            <p class="zingchart-name">Top music hay nghe nhất</p>
+                                            <img src="./assets/img/zingcharrt.jpg" alt="" class="zingchart-img">
+                                        </a>
+                                        
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="singer">
+                            <div class="singer-headingg">
+                                <i class="fa-solid fa-angles-right music-new-icon"></i>
+                                <a href="" class="music-new-heading">CA SĨ NỔI BẬT</a>
+                            </div>
+                            <div class="singer-body">
+                                <div class="singer-vpop">
+                                    <div class="singer-vpop-heading">
+                                        <div class="singer-lastday">
+                                            <i class="fa-solid fa-arrows-to-dot singer-lastday-icon"></i>
+                                            <p class="singer-vpop-content">Ca Sĩ V-POP</p>
+
+                                        </div>
+                                        <a href="" class="singer-vpop-all">
+                                            <p class="singer-vpop-tatca">Xem tất cả</p>
+                                            <i class="fa-solid fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                    <div class="singer-vpop-list">
+                                        <div class="grid-col-2-2 tablet-3 mobile-4">
+                                            <a href="" class="singer-vpop-items">
+                                                <div class="singer-vpop-item">
+                                                    <div class="singer-vpop-img" style="background-image: url(https://image.vtc.vn/resize/th/upload/2022/02/18/hoa-minzy-giau-co-nao-o-tuoi-26-17-17585215.jpg) ;"></div>
+                                                    <span class="singer-vpop-name">Hòa Minzy</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid-col-2-2 tablet-3 mobile-4">
+                                            <a href="" class="singer-vpop-items">
+                                                <div class="singer-vpop-item">
+                                                    <div class="singer-vpop-img" style="background-image: url(https://static-images.vnncdn.net/files/publish/2022/5/27/hain7580-102.jpg) ;"></div>
+                                                    <span class="singer-vpop-name">Amee</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid-col-2-2 tablet-3 mobile-4">
+                                            <a href="" class="singer-vpop-items">
+                                                <div class="singer-vpop-item">
+                                                    <div class="singer-vpop-img" style="background-image: url(https://i.scdn.co/image/ab6761610000e5ebec1bd421630bf3ad110c09fa) ;"></div>
+                                                    <span class="singer-vpop-name">Vũ</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid-col-2-2 tablet-3 mobile-4">
+                                            <a href="" class="singer-vpop-items">
+                                                <div class="singer-vpop-item">
+                                                    <div class="singer-vpop-img" style="background-image: url(https://yt3.ggpht.com/ytc/AKedOLQ-pO1p4Djrp5KaiawzzlBYUrKWBA-ZKteptNztQw=s900-c-k-c0x00ffffff-no-rj) ;"></div>
+                                                    <span class="singer-vpop-name">Soobin Hoàng Sơn</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid-col-2-2 tablet-3 mobile-4">
+                                            <a href="" class="singer-vpop-items">
+                                                <div class="singer-vpop-item">
+                                                    <div class="singer-vpop-img" style="background-image: url(https://yt3.ggpht.com/ytc/AKedOLQ-pO1p4Djrp5KaiawzzlBYUrKWBA-ZKteptNztQw=s900-c-k-c0x00ffffff-no-rj) ;"></div>
+                                                    <span class="singer-vpop-name">Soobin Hoàng Sơn</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="singer-vpop">
+                                    <div class="singer-vpop-heading">
+                                        <div class="singer-lastday">
+                                            <i class="fa-solid fa-arrows-to-dot singer-lastday-icon"></i>
+                                            <p class="singer-vpop-content">Ca Sĩ K-POP</p>
+
+                                        </div>
+                                        <a href="" class="singer-vpop-all">
+                                            <p class="singer-vpop-tatca">Xem tất cả</p>
+                                            <i class="fa-solid fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                    <div class="singer-vpop-list">
+                                        <div class="grid-col-2-2 tablet-3 mobile-4">
+                                            <a href="" class="singer-vpop-items">
+                                                <div class="singer-vpop-item">
+                                                    <div class="singer-vpop-img" style="background-image: url(https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2022/7/17/1069278/Lisa-Blackpink-Nhiem.jpeg) ;"></div>
+                                                    <span class="singer-vpop-name">Lisa-BlackPink</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid-col-2-2 tablet-3 mobile-4">
+                                            <a href="" class="singer-vpop-items">
+                                                <div class="singer-vpop-item">
+                                                    <div class="singer-vpop-img" style="background-image: url(https://cdnmedia.thethaovanhoa.vn/Upload/QDN4HPIpMrJuoPNyIvLDA/files/2022/07/Idols-treasure%20-faces6.jpg) ;"></div>
+                                                    <span class="singer-vpop-name">V-BTS</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid-col-2-2 tablet-3 mobile-4">
+                                            <a href="" class="singer-vpop-items">
+                                                <div class="singer-vpop-item">
+                                                    <div class="singer-vpop-img" style="background-image: url(https://toplist.vn/images/800px/wendy-611471.jpg) ;"></div>
+                                                    <span class="singer-vpop-name">YoSyymy</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid-col-2-2 tablet-3 mobile-4">
+                                            <a href="" class="singer-vpop-items">
+                                                <div class="singer-vpop-item">
+                                                    <div class="singer-vpop-img" style="background-image: url(https://kenh14cdn.com/thumb_w/660/203336854389633024/2022/5/26/y71pkjnbdw761-1653539545908807007433.jpeg) ;"></div>
+                                                    <span class="singer-vpop-name">Jenny</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid-col-2-2 tablet-3 mobile-4">
+                                            <a href="" class="singer-vpop-items">
+                                                <div class="singer-vpop-item">
+                                                    <div class="singer-vpop-img" style="background-image: url(https://kenh14cdn.com/thumb_w/660/203336854389633024/2022/5/4/27917577046356093732059142080958540908584197n-1651649188170400115120.jpg) ;"></div>
+                                                    <span class="singer-vpop-name">Rose</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="singer-vpop">
+                                    <div class="singer-vpop-heading">
+                                        <div class="singer-lastday">
+                                            <i class="fa-solid fa-arrows-to-dot singer-lastday-icon"></i>
+                                            <p class="singer-vpop-content">Ca Sĩ US-UK</p>
+
+                                        </div>
+                                        <a href="" class="singer-vpop-all">
+                                            <p class="singer-vpop-tatca">Xem tất cả</p>
+                                            <i class="fa-solid fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                    <div class="singer-vpop-list">
+                                        <div class="grid-col-2-2 tablet-3 mobile-4">
+                                            <a href="" class="singer-vpop-items">
+                                                <div class="singer-vpop-item">
+                                                    <div class="singer-vpop-img" style="background-image: url(https://nld.mediacdn.vn/k:2015/hay-lam-duoc-nhu-adele-1446538769166/adele-nhieu-lan-duoc-moi-chup-anh-khoa-than.jpg) ;"></div>
+                                                    <span class="singer-vpop-name">Adele</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid-col-2-2 tablet-3 mobile-4">
+                                            <a href="" class="singer-vpop-items">
+                                                <div class="singer-vpop-item">
+                                                    <div class="singer-vpop-img" style="background-image: url(https://static.onecms.io/wp-content/uploads/sites/6/2015/01/maroon-5-sugar.jpg) ;"></div>
+                                                    <span class="singer-vpop-name">Maroon-5</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid-col-2-2 tablet-3 mobile-4">
+                                            <a href="" class="singer-vpop-items">
+                                                <div class="singer-vpop-item">
+                                                    <div class="singer-vpop-img" style="background-image: url(https://music-b26f.kxcdn.com/wp-content/uploads/2018/09/Imagine-Dragons_BLS_091518-8251-770x470.jpg) ;"></div>
+                                                    <span class="singer-vpop-name">imagine dragons</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid-col-2-2 tablet-3 mobile-4">
+                                            <a href="" class="singer-vpop-items">
+                                                <div class="singer-vpop-item">
+                                                    <div class="singer-vpop-img" style="background-image: url(https://media.vogue.fr/photos/5e5e81e568322800087b9c81/3:4/w_1278,h_1704,c_limit/001-Lady-Gaga-Album-VogueGlobe-Mar2.jpg) ;"></div>
+                                                    <span class="singer-vpop-name">Lady gaga</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid-col-2-2 tablet-3 mobile-4">
+                                            <a href="" class="singer-vpop-items">
+                                                <div class="singer-vpop-item">
+                                                    <div class="singer-vpop-img" style="background-image: url(http://reviewnhaccu.com/wp-content/uploads/2021/03/justin-bieber.jpg) ;"></div>
+                                                    <span class="singer-vpop-name">justin-bieber</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top-music">
+                            <div class="top-music-heading">
+                                <div class="top-music-open">
+                                    <i class="fa-solid fa-angles-right music-new-icon"></i>
+                                    <a href="" class="music-new-heading">Top100 bài hát</a>
+                                </div>
+                                <a href="" class="singer-vpop-all">
+                                    <p class="singer-vpop-tatca">Xem tất cả</p>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </a>
+                            </div>
+                            <div class="top-music-body">
+                                <div class="top-music-list">
+                                    <div class="grid-col-2-3 tablet-3-4 mobile-3-4">
+                                        <a href="" class="top-music-items">
+                                            <div class="top-music-id">
+                                                <div class="top-music-img" style="background-image: url(https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_jpeg/cover/7/b/1/d/7b1d35be17804ecbda9f6493fe366749.jpg) ;"></div>
+                                                <div class="top-music-content">
+                                                    <h3 class="top-music-gt">Top100 nhạc phim hay nhất đươc tuyển chọn</h3>                                            
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid-col-2-3 tablet-3-4 mobile-3-4">
+                                        <a href="" class="top-music-items">
+                                            <div class="top-music-id">
+                                                <div class="top-music-img" style="background-image: url(https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_jpeg/cover/c/5/f/c/c5fc615c43215c6b72676f42767855ee.jpg) ;"></div>
+                                                <div class="top-music-content">
+                                                    <h3 class="top-music-gt">Top100 nhạc EDM cháy nhất</h3>                                            
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid-col-2-3 tablet-3-4 mobile-3-4">
+                                        <a href="" class="top-music-items">
+                                            <div class="top-music-id">
+                                                <div class="top-music-img" style="background-image: url(https://dihavina.com/wp-content/uploads/2020/02/100-rap-viet.png) ;"></div>
+                                                <div class="top-music-content">
+                                                    <h3 class="top-music-gt">Top100 nhạc RapViet hay nhap</h3>                                            
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid-col-2-3 tablet-3-4 mobile-3-4">
+                                        <a href="" class="top-music-items">
+                                            <div class="top-music-id">
+                                                <div class="top-music-img" style="background-image: url(https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_jpeg/cover/a/c/a/3/aca332d8c40d39fe5f1fdfd7fc4d6c21.jpg) ;"></div>
+                                                <div class="top-music-content">
+                                                    <h3 class="top-music-gt">Top100 nhạc phim không lời</h3>                                            
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid-col-2-3 tablet-3-4 mobile-3-4">
+                                        <a href="" class="top-music-items">
+                                            <div class="top-music-id">
+                                                <div class="top-music-img" style="background-image: url(https://avatar-ex-swe.nixcdn.com/playlist/2022/05/11/0/d/4/0/1652244707636_500.jpg) ;"></div>
+                                                <div class="top-music-content">
+                                                    <h3 class="top-music-gt">Top100 nhạc Âu mỹ hay nhất/h3>                                            
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid-col-2-3 tablet-3-4 mobile-3-4">
+                                        <a href="" class="top-music-items">
+                                            <div class="top-music-id">
+                                                <div class="top-music-img" style="background-image: url(https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_jpeg/cover/f/c/9/4/fc94328a7c216b9d9c5eb1521f893709.jpg) ;"></div>
+                                                <div class="top-music-content">
+                                                    <h3 class="top-music-gt">Top100 nhạc thiếu nhi vui nhộn</h3>                                            
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid-col-2-3 tablet-3-4 mobile-3-4">
+                                        <a href="" class="top-music-items">
+                                            <div class="top-music-id">
+                                                <div class="top-music-img" style="background-image: url(https://avatar-ex-swe.nixcdn.com/playlist/2020/09/16/e/1/f/f/1600239362951_500.jpg) ;"></div>
+                                                <div class="top-music-content">
+                                                    <h3 class="top-music-gt">Top100 nhạc Hàn Quốc </h3>                                            
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="zing-event">
+                            <div class="top-music-heading">
+                                <div class="top-music-open">
+                                    <i class="fa-solid fa-angles-right music-new-icon"></i>
+                                    <a href="" class="music-new-heading">#ZingEvent List</a>
+                                </div>
+                                <a href="" class="singer-vpop-all">
+                                    <p class="singer-vpop-tatca">Xem tất cả</p>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </a>
+                            </div>
+                            <div class="zing-event-body">
+                                <div class="zing-event-list">
+                                    <div class="grid-col-l-4 tablet-12">
+                                        <a href="" class="zing-event-items">
+                                            <div class="zing-event-content">
+                                                <p class="zing-event-name">Lễ Hội Ánh Sáng</p>
+                                                <div class="zing-event-img" style="background-image: url(http://sukienvietsky.com/upload/news/le-hoi-am-nhac-so-1-the-gioi-3-5441.jpg) ;"></div>
+                                                <div class="zing-event-qt">
+                                                    <button class="zing-event-buy">Buy Ticket</button>
+                                                    <button class="zing-event-intro">Quan tâm</button>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid-col-l-4 tablet-12">
+                                        <a href="" class="zing-event-items">
+                                            <div class="zing-event-content">
+                                                <p class="zing-event-name">Lề hội Chờ IUUU CHILLL</p>
+                                                <div class="zing-event-img" style="background-image: url(https://backstage.vn/wp-content/uploads/2020/06/dwp-2017-djakarta-warehouse-project-garudha-loop-central.jpg) ;"></div>
+                                                <div class="zing-event-qt">
+                                                    <button class="zing-event-buy">Buy Ticket</button>
+                                                    <button class="zing-event-intro">Quan tâm</button>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid-col-l-4 tablet-12">
+                                        <a href="" class="zing-event-items">
+                                            <div class="zing-event-content">
+                                                <p class="zing-event-name"> VinaMusic Show</p>
+                                                <div class="zing-event-img" style="background-image: url(https://ibgroup.vn/wp-content/uploads/sites/8/2022/06/287401799_2285120138322044_4605964801406521977_n.jpg) ;"></div>
+                                                <div class="zing-event-qt">
+                                                    <button class="zing-event-buy">Buy Ticket</button>
+                                                    <button class="zing-event-intro">Quan tâm</button>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="grid-col-3 tablet-12">
+                        <div class="footer-product">
+                            <div class="footer-my">
+                                <div class="footer-pro-name">Designer</div>
+                                <i class="fa-solid fa-angles-down footer-my-icon"></i>
+
+                            </div>
+                            <div class="footer-pro-list">
+                                <img src="./assets/img/add.jpg" alt="" class="footer-img">
+                                <div class="footer-pro-gt">
+                                    <p class="footer-fb">FaceBook:
+                                        <a href="https://www.facebook.com/profile.php?id=100043923007623">https://www.facebook.com/profile.php?id=100043923007623</a>
+                                    </p>
+                                    <p class="footer-email">Email:
+                                        <a href=""> tienthanh110202@gmail.com</a>
+                                     </p>
+                                    <p class="footer-ig">Instagram:
+                                        <a href="https://www.instagram.com/tienthanh_1102/">https://www.instagram.com/tienthanh_1102/</a>
+                                    </p>
+                                    <p class="footer-address">
+                                        Địa chỉ: Hà Đông, Hà Nội, Việt Nam
+                                    </p>
+                                    <p class="footer-scholl">
+                                        University: Học viện Công Nghệ Bưu Chính Viễn Thông
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-col-7 tablet-12">
+                        <div class="footer-mater">
+                            <div class="footer-lhe">
+                                <ul class="footer-lhe-list">
+                                    <li class="footer__list">
+                                        <a class="footer__dv">Tổng đài hỗ trợ (Miễn phí gọi)</a>
+                                    </li>
+                                    <li class="footer__list">
+                                        <a class="footer__dv">Gọi mua: </a>
+                                        <span class="footer-quaty">1900 2397</span>
+                                        <span class="footer__time">(7:30 - 22:00)</span>
+                                    </li>
+                                    <div class="footer__list">
+                                        <a class="footer__dv">Kĩ thuật: </a>
+                                        <span class=" footer-quaty">1900 2345</span>
+                                        <span class="footer__time">(7:30 - 22:00)</span>
+                                    </div>
+                                    <div class="footer__list">
+                                        <a class="footer__dv">Khiếu nại:</a>
+                                        <span class=" footer-quaty"> 1900 6754</span>
+                                        <span class="footer__time">(8:30 - 21:00)</span>
+                                    </div>
+                                    <div class="footer__list">
+                                        <a class="footer__dv">Bảo hành:</a>
+                                        <span class=" footer-quaty"> 1900 9856</span>
+                                        <span class="footer__time">(8:30 - 20:00)</span>
+                                    </div>
+                                    
+                                </ul>
+                            </div>
+                            <div class="footer-logo">
+                                <p class="footer-logo-heading">Nhà tài trợ music shop</p>
+                                <div class="footer-body">
+                                    <div class="footer-tai" style="background-image: url(https://yt3.ggpht.com/X-wzEDu00-_l0K64mZ2H6pR56uanZHcUX4Jsjy5_YAGRiXYfoy4rNmus5V5sZfDH8ZC7f9Z8prk=s900-c-k-c0x00ffffff-no-rj) ;"></div>
+                                    <div class="footer-tai" style="background-image: url(https://dulichmedia.dalat.vn//Images/VLG/superadminportal.vlg/Ti%E1%BB%87n%20%C3%ADch/ATM/636534372261911540_da.jpg) ;"></div>
+                                    
+                                    <div class="footer-tai" style="background-image: url(https://i.ytimg.com/vi/BSgZJEH_ot0/maxresdefault.jpg) ;"></div>
+                                    <div class="footer-tai" style="background-image: url(https://www.aquacity.tv/media/27120156-logo-nova-em.jpeg) ;"></div>
+                                    <div class="footer-tai" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/SMENTERTAINMENT_LOGO.jpg/800px-SMENTERTAINMENT_LOGO.jpg) ;"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</html>
