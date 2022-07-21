@@ -217,6 +217,10 @@ html{
     margin-left: 12px;
     margin-right: 12px;
 }
+.row.wide1{
+    margin-left: 12px;
+    margin-right: 12px;
+}
 .grid-col-2-4{
     max-width: 33.3333%;
     flex: 0 0 33.33333%;
@@ -238,6 +242,16 @@ html{
 .music-new-danhmuc{
     margin: 20px ;
 }
+.the-song{
+    display: none;
+    flex-wrap: wrap;
+}
+.music-sing.active{
+    color: #eb1b2c;
+}
+.the-song.active{
+    display: flex;
+}
 .music-sing{
     padding: 8px 16px;
     background-color: #fff;
@@ -251,14 +265,7 @@ html{
     background-color: #ccc;
     color: rgb(199, 15, 15);
 }
-.music-album{
-    padding: 8px 16px;
-    background-color: #fff;
-    border-radius: 10px;
-    margin-right: 16px;
-    color: #000;
-    font-size: 1.4rem;
-}
+
 .new-sing{
     
 }
