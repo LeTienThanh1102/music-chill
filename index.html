@@ -90,25 +90,28 @@
                         </div>
                         <ul class="header-nav-list">
                             <li class="header-nav-items">
-                                <a href="" class="header-nav-name">Nhạc Âu Mỹ</a>
+                                <a href="#no1" class="header-nav-name">Nhạc Âu Mỹ</a>
                             </li>
                             <li class="header-nav-items">
-                                <a href="" class="header-nav-name">US-UK</a>
+                                <a href="#no2" class="header-nav-name">US-UK</a>
                             </li>
                             <li class="header-nav-items">
-                                <a href="" class="header-nav-name">K-POP</a>
+                                <a href="#no3" class="header-nav-name">K-POP</a>
                             </li>
                             <li class="header-nav-items">
-                                <a href="" class="header-nav-name">Nhạc Trẻ</a>
+                                <a href="#no4" class="header-nav-name">Nhạc Trẻ</a>
                             </li>
                             <li class="header-nav-items">
-                                <a href="" class="header-nav-name">V-POP</a>
+                                <a href="#no5" class="header-nav-name">V-POP</a>
+                            </li>
+                            <li class="header-nav-items">
+                                <a href="#no6" class="header-nav-name">Nhạc Phim</a>
                             </li>
                         </ul>
-                        <div class="header-user">
+                        <div class="header-user" onclick="openClose();">
                             <img src="./assets/img/user.jpg" alt="" class="header-user-img">
-                            <span class="header-user-name">Tiến Thành</span>
-                            <div class="header-user-list">
+                            <!-- <span class="header-user-name">Tiến Thành</span> -->
+                            <!-- <div class="header-user-list">
                                 <ul class="header-user-items">
                                     <li class="header-user-item">
                                         <a href="">Xem trang cá nhân</a>
@@ -123,7 +126,7 @@
                                         <a href="">Đăng xuất</a>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -148,7 +151,7 @@
                             <div class="carousel-cell" style="background-image: url(./assets/img/music1/Hay-Trao-Cho-Anh.jpg);">
                             </div>
                         </div>
-                        <div class="music-new">
+                        <div id="no1" class="music-new">
                             <div class="music-new-headingg">
                                 <i class="fa-solid fa-angles-right music-new-icon"></i>
                                 <a href="" class="music-new-heading">Bài hát mới phát hành</a>
@@ -463,7 +466,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="singday">
+                        <div id="no2" class="singday">
                             <div class="singday-heading">
                                 <i class="fa-solid fa-angles-right music-new-icon"></i>
                                 <a href="" class="music-new-heading">List nhạc theo ngày</a>
@@ -593,7 +596,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="zingchart">
+                        <div id="no3" class="zingchart">
                             <div class="zingchart-heading">
                                 <i class="fa-solid fa-angles-right music-new-icon"></i>
                                 <a href="" class="music-new-heading">#Zingchart</a>
@@ -624,7 +627,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="singer">
+                        <div id="no4" class="singer">
                             <div class="singer-headingg">
                                 <i class="fa-solid fa-angles-right music-new-icon"></i>
                                 <a href="" class="music-new-heading">CA SĨ NỔI BẬT</a>
@@ -797,7 +800,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="top-music">
+                        <div id="no5" class="top-music">
                             <div class="top-music-heading">
                                 <div class="top-music-open">
                                     <i class="fa-solid fa-angles-right music-new-icon"></i>
@@ -883,7 +886,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="zing-event">
+                        <div id="no6" class="zing-event">
                             <div class="top-music-heading">
                                 <div class="top-music-open">
                                     <i class="fa-solid fa-angles-right music-new-icon"></i>
@@ -1016,6 +1019,41 @@
             </div>
         </div>
     </div>
+    <div class="modal" onclick="hidenClose();">
+        <div class="modal-use">
+            <div class="modal-contaniner">
+                <div class="modal-heading">
+                    <img src="./assets/img/user.jpg" alt="" class="header-user-img">
+                    <h3 class="modal-heading-name">Tiến Thành Official</h3>
+                </div>
+                <div class="modal-body">
+                    <ul class="modal-list">
+                        <li class="modal-items">
+                            <i class="modal-icon fa-solid fa-paper-plane"></i>
+                            <a href="" class="modal-name">Xem trang cá nhân</a>
+                        </li>
+                        <li class="modal-items">
+                            <i class="modal-icon fa-solid fa-location-dot"></i>
+                            <a href="" class="modal-name">Cài đặt và quyền riêng tư</a>
+                        </li>
+                        <li class="modal-items">
+                            <i class="modal-icon fa-solid fa-download"></i>
+                            <a href="" class="modal-name">Danh sách nhạc tải về</a>
+                        </li>
+                        <li class="modal-items">
+                            <i class="modal-icon fa-solid fa-volume-high"></i>
+                            <a href="" class="modal-name">Âm thanh và trợ năng</a>
+                        </li>
+                        <li class="modal-items">
+                            <i class="modal-icon fa-solid fa-arrow-right-to-bracket"></i>
+                            <a href="" class="modal-name">Đăng xuất</a>
+                        </li>
+    
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <script>
@@ -1033,5 +1071,17 @@
             pane.classList.add('active');
         }
     })
+    var heading=$('.header-user');
+    var model=$('.modal');
+    var modalContainer=$('.modal-contaniner')
+    function openClose(){
+        model.classList.add('open');
+    }
+    function hidenClose(){
+        model.classList.remove('open');
+    }
+    modalContainer.addEventListener('click', function(event){
+            event.stopPropagation()
+        })
 </script>
 </html>

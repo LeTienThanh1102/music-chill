@@ -73,8 +73,14 @@
     .zingchart-list{
         flex-wrap: wrap;
     }
+    .modal-use{
+        max-width: 35%;
+    }
 }
 @media (max-width:739px){
+    .modal-use{
+        max-width: 80%;
+    }
     .header-nav-list{
         display: none;
     }
